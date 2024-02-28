@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+div.sub_top_banner div.center {
+  background: url(../img/sub_top_img01.png);
+}
+
+h4.subtitle {
+	font-size: 22px;
+	text-align: center;
+	line-height: 33px;
+}
+
+ul.number {
+	margin: 60px auto;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+ul.number li div.bg_point {
+	width: 80px;
+	height: 35px;
+	border-radius: 100px;
+	text-align: center;
+	line-height: 35px;
+	font-size: 17px;
+	color: white;
+	margin-right: 20px;
+	float: left;
+}
+
+ul.number li {
+	font-size: 17px;
+	color: #3a3a3c;
+	line-height: 35px;
+	margin-bottom: 15px;
+}
+
+div.diagram ul.title li {
+	width: 240px;
+	height: 80px;
+	box-sizing: border-box;
+	float: left;
+}
+
+div.diagram ul.title li.text_title {
+	width: 240px;
+	height: 60px;
+	border-radius: 100px;
+	background: #8ab6f0;
+	text-align: center;
+	display: block;
+	line-height: 60px;
+	color: white;
+	font-size: 18px;
+}
+
+div.diagram ul.title li div.subtext {
+	font-size: 16px;
+	color: #3c3c3a;
+	width: 240px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	background: url(../img/main_arrow_bg.png);
+}
+
+div.diagram ul.contents {
+	clear: both;
+}
+
+div.diagram ul.contents li {
+	float: left;
+	width: 240px;
+	height: 120px;
+	border-radius: 20px;
+	border: 1px dashed #8ab6f0;
+	box-sizing: border-box;
+}
+
+div.diagram ul.contents li div.black {
+	width: 160px;
+	height: 37px;
+	border-bottom: 1px solid #e6e6e6;
+	box-sizing: border-box;
+	text-align: center;
+	line-height: 37px;
+	font-size: 18px;
+	margin: 0 auto;
+}
+
+div.diagram ul.contents li div.last {
+	border-bottom: none;
+}
+
+div.diagram ul.contents li.black {
+	font-size: 18px;
+	line-height: 120px;
+	text-align: center;
+}
+
+div.diagram ul.contents li.none_dashed {
+	border: none;
+}

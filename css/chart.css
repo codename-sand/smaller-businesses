@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+div.sub_top_banner div.center {
+  background: url(../img/sub_top_img01.png);
+}
+
+div.chart {
+	width: 1200px;
+	height: 580px;
+	padding-top: 450px;
+	box-sizing: border-box;
+	background: url(../img/chart_bg.png) no-repeat top center;
+}
+
+div.chart ul.last {
+	margin-right: 0px !important;
+}
+
+div.chart ul.center_text {
+	width: 160px;
+	float: left;
+	box-sizing: border-box;
+	margin-right: 48px;
+}
+
+div.chart ul.center_text li {
+	height: 45px;
+	box-sizing: border-box;
+	border-radius: 100px;
+	border: 1px dashed #8ab6f0;
+	font-size: 17px;
+	color: #5997e9;
+	line-height: 45px;
+	text-align: center;
+	margin-bottom: 10px;
+}

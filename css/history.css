@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+div.sub_top_banner div.center {
+  background: url(../img/sub_top_img01.png);
+}
+
+div.content {
+	width: 1200px;
+	position: relative;
+	margin: 0 auto;
+}
+
+div.content:before {
+	width: 1px;
+	height: 100%;
+	position: absolute;
+	content: "";
+	background: #e6e6e6;
+	top: 0;
+	left: 600px;
+	z-index: -1;
+}
+div.content > div.first {
+	width: 300px;
+	height: 800px;
+	float: left;
+	background: url(../img/history_first.png);
+	margin-left: 190px;
+}
+
+div.content ul.textlist {
+	width: 612px;
+	height: 200px;
+	float: right;
+	margin-bottom: 100px;
+}
+
+div.content ul.textlist li > div.bullet {
+	width: 25px;
+	height: 25px;
+	box-sizing: border-box;
+	border: 7px solid #5997e9;
+	border-radius: 100px;
+	float: left;
+	background: white;
+	margin-right: 20px;
+}
+
+div.content ul.textlist li.title {
+	font-size: 35px;
+	color: #5997e9;
+	line-height: 25px;
+	margin-bottom: 20px;
+}
+
+div.content ul.textlist li {
+	color: #3c3c3a;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+div.content ul.textlist li.list {
+	margin-left: 45px;
+}
+
+div.content ul.textlist li.img {
+	margin-top: 20px;
+}
+
+div.content ul.textlist li.img > img {
+	display: block;
+	border-bottom: 2px solid #5997e9;
+}
+
+footer {
+	margin-top: 0px !important;
+}
+

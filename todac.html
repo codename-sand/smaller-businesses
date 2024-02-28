@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>중소기업복지지원단</title>
+
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/form.css">
+	<script type="text/javascript" src="js/jquery-3.7.1.slim.js"></script>
+	<script src="js/check.js"></script>
+	<script src="js/sign.js"></script>
+	<script src="js/file.js"></script>
+</head>
+
+<body>
+	<header>
+		<div class="center cf">
+			<h1 class="main_logo"><a href="index.html"><img src="img/header_logo_bk.png" alt="header_logo"></a></h1>
+			<ul>
+				<li class="main_menu cf">
+					<a href="intro.html" class="black">지원단 소개</a>
+					<div class="sub_menu">
+						<ul class="sub_menu_list">
+							<li><a href="intro.html">인사말</a></li>
+							<li><a href="purpose.html">설립목적</a></li>
+							<li><a href="about.html">기관소개</a></li>
+							<li><a href="history.html">연　혁</a></li>
+							<li><a href="organizationChart.html">조직도</a></li>
+							
+							
+						</ul>
+					</div>
+					
+				</li>
+				<li class="main_menu"><a href="consulting.html" class="black">상담신청</a></li>
+				<li class="main_menu"><a href="yearlyStatus.html" class="black">연도별 사업실적</a></li>
+				<li class="main_menu cf">
+					<a href="result.html" class="black">커뮤니티</a>
+					<div class="sub_menu">
+						<ul class="sub_menu_list">
+							<li><a href="result.html">선정발표</a></li>
+							<li><a href="news.html">복지뉴스</a></li>
+							<li><a href="awards.html">수상내역</a></li>
+						</ul>
+					</div>
+					
+				</li>
+			</ul>	
+			<a href="login.html" class="join_about">참여신청</a>
+		</div>
+	</header>
+	
+	<div class="sub_top_banner">
+		<div class="center">
+			<h1 class="point">토닥토닥 e복지 도입 신청</h1>
+			<h4 class="black">워라밸의 시작, 토닥토닥 e복지!</h4>
+		</div>
+		
+	</div>
+
+	<form class="center">
+		<div class="sub_title">
+			<h3 class="black">2019년도 토닥토닥 e복지 도입 신청서</h3>
+			<img src="img/sub_title_visual.png" alt="visual_bullet">
+		</div>
+		
+		<p class="black">01. 기업정보</p>
+		<table>
+			<tr>
+				<td class="small_title">기업명</td>
+				<td class="two_type">
+					<input type="text" name="" readonly="readonly" value="(주)한국기업복지">
+				</td>
+				<td class="small_title">사업자 등록 번호</td>
+				<td class="two_type">
+					<input type="text" name="" readonly="readonly" value="123-45-67890">
+				</td>
+			</tr>
+			<tr>
+				<td class="small_title">사업장 주소</td>
+				<td colspan="3"  class="one_type">
+					<input type="text" name="" readonly="readonly" value="서울특별시 성동구 광나루로 130,서울숲 IT캐슬 5층 507호">
+				</td>
+			</tr>
+		</table>
+			
+		<p class="black">02. 기업 담당자</p>
+		<table>
+			<tr>
+				<td class="small_title">직급</td>
+				<td class="two_type">
+					<input type="text" name="" readonly="readonly" value="팀장">
+				</td>
+				<td class="small_title">성명</td>
+				<td class="two_type">
+					<input type="text" name="" readonly="readonly" value="홍길동">
+				</td>
+			</tr>
+			<tr>
+				<td class="small_title">전화번호</td>
+				<td class="two_type">
+					<input type="text" name="" readonly="readonly" value="02-123-4567">
+				</td>
+				<td class="small_title">휴대폰 번호</td>
+				<td class="two_type">
+					<input type="text" name="" readonly="readonly" value="010-1234-5678">
+				</td>
+			</tr>
+			<tr>
+				<td class="small_title">팩스 번호</td>
+				<td class="two_type">
+					<input type="text" name="" readonly="readonly" value="02-223-4567">
+				</td>
+				<td class="small_title">이메일 주소</td>
+				<td class="two_type">
+					<input type="text" name="" readonly="readonly" value="hongildong12@naver.com">
+				</td>
+			</tr>
+		</table>
+
+		<p class="black check_title">03. 회계 담당자</p>
+		
+		<div class="big_check_wrap">
+			<div class="check_wrap">
+				<input type="checkbox" id="big_check">
+				<div class="check_btn"></div>
+			</div>
+			<label for="big_check" class="black">상동 (기업담당자 정보 = 회계담당자 정보)</label>
+		</div>
+
+		<table>
+			<tr>
+				<td class="small_title">직급</td>
+				<td class="two_type">
+					<input type="text" name="" placeholder="직급을 입력해주세요">
+				</td>
+				<td class="small_title">성명</td>
+				<td class="two_type">
+					<input type="text" name="" placeholder="성명을 입력해주세요">
+				</td>
+			</tr>
+			<tr>
+				<td class="small_title">전화번호</td>
+				<td class="two_type three_pkg">
+					<select name="" id="">
+						<option value=""></option>
+					</select>
+					<p class="bar">-</p>
+					<input type="text" name="" placeholder="4자리" class="middle">
+					<p class="bar">-</p>
+					<input type="text" name="" placeholder="4자리" class="middle">
+				</td>
+				<td class="small_title">이메일 주소<span class="mail">*회계 담당자 이메일로<br> 세금계산서가 발행됩니다.</span></td>
+				<td class="two_type three_pkg">
+					<input type="text" name="" placeholder="id" class="long padding">
+					<p class="bar">@</p>
+					<input type="text" name="" placeholder="naver.com" class="long">
+					<select name="" id="" class="mail">
+						<option value="">naver.com</option>
+					</select>
+				</td>
+			</tr>
+		</table>
+
+		<p class="black">04. 결제정보</p>
+		<!-- 2018년도 테이블 -->
+		<table class="before_table">
+			<tr>
+				<th rowspan="2" class="left">결제정보</th>
+				<th colspan="3" class="right">기업부담금 (VAT별도)</th>
+			</tr>
+			<tr>
+				<th>1인 ~ 50인</th>
+				<th>51인 ~ 200인</th>
+				<th class="right">201인 이상</th>
+			</tr>
+			<tr>
+				<td class="title_style">구축비</td>
+				<td class="td_style">0원(전액지원)</td>
+				<td class="td_style">1,500,000원(50%지원)</td>
+				<td class="td_style right">3,000,000원(지원없음)</td>
+			</tr>
+			<tr>
+				<td class="title_style">월 관리비 (일시납)</td>
+				<td class="td_style">0원(전액지원)</td>
+				<td class="td_style">10만원 X 12月 (50%지원)</td>
+				<td class="td_style right">20만원 X 12月 (지원없음)</td>
+			</tr>
+			<tr>
+				<td class="title_style">연복지비 (1인)</td>
+				<td colspan="3" class="select_view">
+					<p class="black">200,000원　X　</p>
+					<div class="num_wrap">
+						<input type="text" placeholder="0">
+						<label class="black">명</label>
+					</div>
+					<p class="gray">( 400,000원 지원 / 1인 )</p>
+				</td>
+			</tr>
+		</table>
+
+		<!-- 2019년도 테이블 -->
+		<table class="three_type_table">
+			<tr>
+				<th rowspan="2" class="width_fixed left">결제정보</th>
+				<th rowspan="2" class="width_fixed">금액</th>
+				<th colspan="6" class="right">기업 부담금(VAT 별도)</th>
+			</tr>
+			<tr class="line">
+				<th>5인미만</th>
+				<th>5 ~ 25인</th>
+				<th>26 ~ 50인</th>
+				<th>51 ~ 100인</th>
+				<th>101 ~ 200인</th>
+				<th class="right">201인 이상 ~ </th>
+			</tr>
+			<tr class="center">
+				<td class="small_title02">구축비</td>
+				<td class="right_line">1,000,000원</td>
+				<td class="right_line">0원<br>(전액지원)</td>
+				<td class="right_line">0원<br>(전액지원)</td>
+				<td class="right_line">0원<br>(전액지원)</td>
+				<td class="right_line">500,000원<br>(50%지원)</td>
+				<td class="right_line">750,000원<br>(25%지원)</td>
+				<td class="right_line right">1,000,000원<br>(지원없음)</td>
+			</tr>
+			<tr class="center">
+				<td class="small_title02">월 관리비(일시납)</td>
+				<td class="right_line">2,400,000원</td>
+				<td class="right_line">0원<br>(전액지원)</td>
+				<td class="right_line">5만원 X 12月<br>(75%지원)</td>
+				<td class="right_line">10만원 X 12月<br>(50%지원)</td>
+				<td class="right_line">15만원 X 12月<br>(25%지원)</td>
+				<td class="right_line right" colspan="2">20만원 X 12月<br>(지원없음)</td>
+			</tr>
+			<tr class="center">
+				<td class="small_title02">연복지비(1인)</td>
+				<td class="right_line">800,000원<br>(1인)</td>
+				<td colspan="6" class="select_view">
+					<p class="black">200,000원　X　</p>
+					<div class="num_wrap">
+						<input type="text" placeholder="0">
+						<label class="black">명</label>
+					</div>
+					<p class="gray">( 600,000원 지원 / 1인 )</p>
+				</td>
+			</tr>
+		</table>
+
+		<table class="total_table">
+			<tr>
+				<td class="small_title02">총 지원금액</td>
+				<td colspan="7" class="one_type">
+					<div class="totalService">
+						<label for="">구축비[</label>
+						<input type="text" name="" readonly="readonly" value="0">
+					</div>
+					<div class="totalService">
+						<label for="">월 관리비[</label>
+						<input type="text" name="" readonly="readonly" value="0">
+					</div>
+					<div class="totalService last">
+						<label for="">연 복지비[</label>
+						<input type="text" name="" readonly="readonly" value="0">
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td class="small_title02">총　계</td>
+				<td colspan="7" class="total_money">
+					※ ①구축비, ②월 관리비, ③연 복지비 X 신청인원 포함한 최종 기업부담금 총계 (VAT포함)<!-- <br>
+					(단, 월 관리비 부담기업의 경우 월납 선택시 → 1개월분만 포함하여 총계 작성)<br> -->
+
+					<div class="total_wrap">
+						<label>￦</label>
+						<input type="text" placeholder="0">
+						<p>원</p>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td class="small_title02">필수 약관 동의</td>
+				<td colspan="3" class="checkbox_type">
+					<ul>
+						<li>
+							<label class="all_check">전체동의</label>
+							<div class="check_wrap">
+								<input type="checkbox" name="" id="check">
+								<div class="check_btn"></div>
+							</div>
+						</li>
+						<li>
+							<label>1. 상기 계약은 서비스 개시 일로부터 1년 약정에 동의합니다.</label>
+							<div class="check_wrap">
+								<input type="checkbox" name="checked" id="agree_value">
+								<div class="check_btn"></div>
+							</div>
+						</li>
+						<li>
+							<label>2. 승인통보 후 2일 이내 기업부담금 미결제 시 도입자격이 보류될 수 있습니다.</label>
+							<div class="check_wrap">
+								<input type="checkbox" name="checked" id="agree_value">
+								<div class="check_btn"></div>
+							</div>
+						</li>
+						<li>
+							<label>3. 제공되는 기본형 복지 서비스는 제휴사와의 계약 조건에 따라 축소되거나 확대될 수 있습니다.</label>
+							<div class="check_wrap">
+								<input type="checkbox" name="checked" id="agree_value">
+								<div class="check_btn"></div>
+							</div>
+						</li>
+						<li>
+							<label>4. 토닥토닥 e복지는 지원금이 자부담금을 상회하므로, 자부담 환불이 없습니다.</label>
+							<div class="check_wrap">
+								<input type="checkbox" name="checked" id="agree_value">
+								<div class="check_btn"></div>
+							</div>
+						</li>
+					</ul>
+				</td>
+				<td colspan="4">
+					<span class="bg_point white">사업자 등록증</span>
+					<div class="file_custom">
+						<input class="upload_name" value="사업자등록증을 등록하세요" disabled="disabled">
+						<label for="file_upload" class="upload_button"></label>
+						<input type="file" id="file_upload" class="hidden">
+						
+						<script type="text/javascript" src="js/file.js"></script>
+					</div>
+				</td>
+			</tr>
+			<tr class="sign_wrap">
+				<td class="small_title02">대표이사(인)</td>
+				<td colspan="7">
+					<div class="btn_wrap">
+						<a class="direct">직접 서명</a>
+						<a class="add_file">파일 추가</a>
+					</div>
+					
+					<!-- 직접 서명 -->
+					<div class="none_area">
+						<div class="reset_wrap">
+							<a class="refresh"><img src="img/refresh.png" alt="icon">다시 서명</a>
+							<a class="refile"><img src="img/refile.png" alt="icon">파일 추가</a>
+						</div>
+					</div>
+					<!-- 파일추가-->
+					<div class="file_add_sign">
+						<div class="reset_wrap">
+							<a class="rewrite"><img src="img/rewrite.png" alt="icon">직접서명</a>
+						</div>
+						<input class="upload_name_sign" value="서명 파일을 추가하세요" disabled="disabled">
+						<label for="file_upload_sign" class="sign_upload"></label>
+						<input type="file" id="file_upload_sign" class="sign_hidden">
+					</div>
+				</td>
+			</tr>
+		</table>
+
+
+		<input type="submit" name="" value="참여 신청" class="submit_btn">	
+	</form>
+	
+
+	<footer class="cf">
+		<div class="top_line">
+			<div class="center">
+				<ul>
+					<li class="black left">
+						<img src="img/awards_icon03.png" alt="footer_icon"><p>2018년 대한민국 경영대상 수상(기업복지 부문)</p>
+					</li>
+					<li class="black center2">
+						<p>주관기관</p><img src="img/footer_logo03.png" alt="footer_icon">
+					</li>
+					<li class="black right"><p>수행기관</p><img src="img/footer_logo.png" alt="footer_icon"></li>
+				</ul>
+			</div>
+		</div>
+		<div class="center footer_area">
+			<div class="text_set">
+				<p class="gray">서울특별시 성동구 아차산로 49 서울숲코오롱디지털타워 3차 1604호</p>
+				<ul class="address_list">
+					<li>이메일 : wlbwel@bokjihelp.org</li>
+					<li><img src="img/footer_small_line.png"></li>
+					<li>전화 : 02-6410-9699</li>
+					<li><img src="img/footer_small_line.png"></li>
+					<li>팩스 : 02-6442-5758</li>
+				</ul>
+				<h6 class="gray">Copyright © 중소기업복지지원단, 사단법인 혁신리더협회. All rights reserved.</h6>
+			</div>
+			
+
+			<ul class="sns_list">
+				<li><a href="https://twitter.com/okwel_official" target="_blank"><img src="img/footer_icon01.png" alt="footer_icon_sns"></a></li>
+				<li><a href="https://www.facebook.com/kbizwell" target="_blank"><img src="img/footer_icon02.png" alt="footer_icon_sns"></a></li>
+				<li><a href="https://blog.naver.com/okwel_official" target="_blank"><img src="img/footer_icon03.png" alt="footer_icon_sns"></a></li>
+			</ul>
+		</div>
+	</footer>
+</body>
+</html>

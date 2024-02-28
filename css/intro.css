@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+div.sub_top_banner div.center {
+  background: url(../img/sub_top_img01.png);
+}
+
+div.text_wrap {
+  text-align: left;
+  width: 800px;
+  float: left;
+}
+
+div.text_wrap > p.black {
+  font-size: 25px;
+  line-height: 38px;
+  margin-bottom: 40px;
+}
+
+div.text_wrap h5.black {
+  line-height: 30px;
+}
+
+div.text_wrap p.end {
+  margin-top: 50px;
+  font-size: 22px;
+  float: left;
+  font-weight: 500;
+}
+
+img.ceo_img {margin-top: 230px; width: 400px;}

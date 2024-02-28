@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+div.sub_top_banner div.center {
+    background: url(../img/sub_top_img04.png);
+}
+
+div.list_set {
+    width: 1200px;
+    padding: 20px 0px;
+    border-top: 1px solid #a7a9ac;
+    border-bottom: 1px solid #a7a9ac;
+    margin-top: -1px;
+    box-sizing: border-box;
+}
+
+div.list_set div.img {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 270px;
+    height: 180px;
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid #e6e6e6;
+}
+
+div.list_set div.content_wrap {
+    float: right;
+    width: 930px;
+    padding-left: 30px;
+    height: 180px;
+    box-sizing: border-box;
+}
+
+div.list_set div.tag {
+    width: 80px;
+    height: 25px;
+    display: block;
+    background: #4682d1;
+    color: white;
+    border-radius: 100px;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: center;
+}
+
+div.list_set h4.point {
+    clear: both;
+    font-size: 23px;
+    font-weight: 500;
+    margin: 16px 0px;
+}
+
+div.list_set ul {
+    height: 15px;
+    margin-bottom: 25px;
+}
+
+div.list_set ul li {
+    float: left;
+    height: 15px;
+    font-size: 15px;
+    line-height: 15px;
+    color: #a7a9ac;
+    font-family: 'barun-gothic';
+}
+
+div.list_set ul li > img {
+    width: 30px;
+    height: 15px;;
+}
+
+div.list_set p.black {
+    font-size: 16px;
+    line-height: 25px;
+    width: 900px;
+    height: 55px;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-wrap: break-word; 
+    overflow: hidden;
+    font-family: 'barun-gothic';
+}

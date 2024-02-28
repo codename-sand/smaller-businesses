@@ -1,0 +1,680 @@
+@charset "utf-8";
+ 
+div.sub_top_banner div.center {
+  background: url(../img/sub_top_img05.png);
+}
+
+table {
+	width: 1200px;
+	box-sizing: border-box;
+	margin-bottom: 50px;
+}
+
+table tr th, table tr td {
+	text-align: left;
+	height: 50px;
+	font-family: 'barun_gothic';
+	font-weight: 500;
+	color: #3a3a3c;
+	box-sizing: border-box;
+	line-height: 50px;
+	padding-left: 20px;
+	border-top: 1px solid #e6e6e6;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+table tr td.small_title {
+	background: #f6f6f6;
+	width: 250px !important;
+	color: #3a3a3c;
+	font-size: 16px;
+	font-family: 'barun_gothic';
+	font-weight: 500;
+}
+
+input:read-only {
+	font-weight: 600;
+	color: #3a3a3c;
+	font-family: 'barun_gothic';
+}
+
+table tr td.one_type input[type="text"]{
+	width: 750px !important;
+	font-family: 'barun_gothic';
+}
+
+table tr td.two_type {
+	width: 350px !important;
+}
+
+table tr td input[type="text"] {
+	font-weight: 500;
+	font-size: 16px;
+	width: 350px;
+	font-family: 'barun_gothic';
+}
+
+table tr td.address_form {
+	width: 950px;
+}
+
+table tr td.address_form > input[type="text"] {
+	height: 50px;
+	width: 990px;
+	margin-left: -20px;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+
+table tr td.address_form > input[type="text"].address_line {
+	border-bottom: 1px solid #e6e6e6;
+}
+
+input[type="submit"].submit_btn, button.submit_btn{
+	width: 315px;
+	height: 60px;
+	box-sizing: border-box;
+	color: white;
+	font-size: 20px;
+	display: block;
+	border-radius: 100px;
+	margin: 60px auto;
+	background: #5997e9;
+	line-height: 58px;
+	cursor: pointer;
+	font-family: 'nanum_gothic';
+}
+
+form p.black {
+	font-size: 22px;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+
+table.three_type_table tr th,
+table.before_table tr th {
+	background: #e6e6e6;
+	font-size: 16px;
+	font-weight: 500;
+	color: #3a3a3c;
+	text-align: center;
+	border: 1px solid #c8c8c8;
+}
+
+table.before_table tr th {
+	text-align: center;
+	padding: 0;
+}
+
+table.before_table tr td.title_style {
+	background: #f6f6f6;
+	color: #3a3a3c;
+	font-size: 16px;
+	width: 138px;
+	font-family: 'barun_gothic';
+	font-weight: 500;
+	padding-left: 20px !important;
+	text-align: left !important;
+}
+
+table.before_table tr td.td_style {
+	border-right: 1px solid #e6e6e6;
+	padding: 0;
+	line-height: 25px;
+	text-align: center;
+}
+
+table tr td.small_title02 {
+	background: #f6f6f6;
+	width: 138px !important;
+	color: #3a3a3c;
+	font-size: 16px;
+	font-family: 'barun_gothic';
+	font-weight: 500;
+	padding-left: 20px !important;
+	text-align: left !important;
+}
+
+table tr th.width_fixed {
+	width: 180px !important;
+	text-align: left;
+}
+
+table tr th.left {
+	border-left: none;
+}
+
+table tr th.right,
+table tr td.right {
+	border-right: none !important;
+}
+
+table tr.line th {
+	border-left: 1px solid #a7a9ac;
+	padding: 0;
+}
+
+table tr td.right_line {
+	border-right: 1px solid #e6e6e6;
+	width: 190px;
+	padding: 0;
+	line-height: 25px;
+	text-align: center;
+}
+
+table tr td span.bg_point {
+	text-align: center;
+	float: left;
+	width: 100px;
+	height: 30px;
+	border-radius: 100px;
+	line-height: 30px;
+	margin: 15px 0px 0px 145px;
+}
+
+div.file_custom input[type="file"] {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip:rect(0,0,0,0);
+	border: 0;
+}
+
+div.file_custom label.upload_button {
+	cursor: pointer;
+	background: white url(../img/input_file_bg.png);
+	display: block;
+	width: 400px;
+	line-height: 213px;
+	height: 215px;
+	outline-width: 0;
+}
+
+div.file_custom input.upload_name {
+	width: 400px;
+	float: left;
+	color: #5997e9;
+	font-weight: 500;
+	font-size: 17px;
+	text-align: center;
+	background: none;
+	font-family: 'nanum_gothic';
+	margin-top: 95px;
+}
+
+form p.check_title {
+	float: left;
+}
+
+.big_check_wrap {
+  float: left;
+  margin: 4px 0px 0px 10px;
+}
+
+.big_check_wrap .check_wrap {
+	position: relative;
+	float: left;
+	width: 18px;
+	height: 18px;
+	margin-right: 5px;
+}
+
+.big_check_wrap .check_wrap input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0 !important;
+  opacity: 0;
+  z-index: 2;
+}
+
+.big_check_wrap .check_wrap .check_btn {
+  width: 18px;
+  height: 18px;
+  background: url(../img/unchecked_big.png);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.big_check_wrap .check_wrap input[type="checkbox"]:checked + .check_btn {
+  background: url(../img/checked_big.png);
+}
+
+.big_check_wrap label {
+	font-family: 'barun_gothic';
+	font-size: 16px;
+	font-weight: 500;
+}
+
+table tr td.select_view {
+	text-align: center;
+	padding: 10px 0px;
+}
+
+table tr td.select_view p.black {
+	float: left;
+	margin: 3px 0px 8px 280px;
+	line-height: 35px;
+	font-weight: 500;
+}
+
+table tr td.select_view p.gray {
+	clear: both;
+	font-weight: 500;
+	line-height: 25px;
+}
+
+table tr td.select_view div.num_wrap {
+	float: left;
+	width: 300px;
+	height: 35px;
+}
+
+table tr td.select_view div.num_wrap input[type="text"] {
+	width: 160px;
+	height: 35px;
+	float: left;
+	border-radius: 8px;
+	border: 1px solid #e6e6e6;
+	padding-right: 10px;
+	text-align: right;
+}
+
+table tr td.select_view div.num_wrap label {
+	float: left;
+	margin-left: 5px;
+	font-size: 17px;
+	line-height: 35px;
+}
+
+table.total_table {
+	margin-top: -51px;
+}
+
+table.total_table td.total_money {
+	text-align: center;
+	line-height: 25px;
+	padding: 10px 0px;
+}
+
+table.total_table td.total_money div.total_wrap {
+	width: 600px;
+	background: orange;
+	margin: 15px auto 0px;
+}
+
+table.total_table td.total_money div.total_wrap label,
+table.total_table td.total_money div.total_wrap p {
+	float: left;
+	font-size: 20px;
+	font-weight: 500;
+	color: #5997e9;
+	line-height: 37px;
+}
+
+table.total_table td.total_money div.total_wrap input[type="text"] {
+	width: 500px;
+	height: 35px;
+	border-radius: 8px;
+	border: 2px solid #5997e9;
+	text-align: right;
+	color: #5997e9;
+	font-size: 20px;
+	float: left;
+	margin: 0px 10px;
+	padding-right: 15px;
+}
+
+
+
+
+table tr.sign_wrap td {
+	height: 200px;
+}
+
+table tr.sign_wrap td div.btn_wrap {
+	width: 425px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+table tr.sign_wrap td div.btn_wrap > a {
+	width: 200px;
+	height: 60px;
+	cursor: pointer;
+	border: 1px solid #a7a9ac;
+	color: #a7a9ac;
+	box-sizing: border-box;
+	display: inline-block;
+	text-align: center;
+	line-height: 60px;
+	font-family: 'nanum_gothic';
+	font-size: 18px;
+	border-radius: 15px;
+}
+
+table tr.sign_wrap td div.btn_wrap > a:hover {
+	border: 2px solid #5997e9;
+	color: #5997e9;
+}
+
+table tr.sign_wrap td div.btn_wrap > a.direct {
+	margin-right: 20px;
+}
+
+table tr.sign_wrap div.none_area {
+	display: none;
+	width: 100%;
+	height: 200px;
+	background: white;
+}
+
+table tr.sign_wrap div > div.reset_wrap {
+	width: 120px;
+	height: 200px;
+	float: left;
+	box-sizing: border-box;
+	padding-top: 50px;
+}
+
+table tr.sign_wrap div > div.reset_wrap > a {
+	width: 115px;
+	height: 38px;
+	border: 1px solid #a7a9ac;
+	font-size: 17px;
+	line-height: 38px;
+	display: block;
+	color: #a7a9ac;
+	box-sizing: border-box;
+	border-radius: 10px;
+	cursor: pointer;
+	margin: 0 auto 20px;
+}
+
+table tr.sign_wrap div > div.reset_wrap > a > img {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	float: left;
+	cursor: pointer;
+	margin-top: 9px;
+	margin: 9px 0px 0px 10px;
+}
+
+table tr.sign_wrap div.file_add_sign > div.reset_wrap {
+	padding-top: 80px;
+}
+
+div.file_add_sign {
+	display: none;
+	width: 100%;
+	height: 200px;
+	background: white;
+}
+
+div.file_add_sign input[type="file"] {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip:rect(0,0,0,0);
+	border: 0;
+}
+
+div.file_add_sign label.sign_upload {
+	cursor: pointer;
+	background: transparent url(../img/sign_bg.png);
+	display: block;
+	width: 100%;
+	height: 200px;
+	outline-width: 0;
+}
+
+div.file_add_sign input.upload_name_sign {
+	float: left;
+	height: auto;
+	display: inline-block;
+	color: #5997e9;
+	font-weight: 500;
+	font-size: 17px;
+	text-align: left;
+	margin-left: 330px;
+	margin-top: 90px;
+	background: none;
+	font-family: 'nanum_gothic';
+}
+
+
+
+
+table tr td.agree_area p.black {
+	width: 700px;
+	font-size: 16px;
+	height: 70px;
+	line-height: 30px;
+	float: left;
+}
+
+table tr td.agree_area {
+	padding: 5px 0px 5px 20px;
+}
+
+table tr td.agree_area div.checkbox_big {
+	width: 150px;
+	float: right;
+}
+
+.checkbox_big .checkbox_wrap {
+	position: relative;
+	float: left;
+	width: 18px;
+	height: 18px;
+	margin: 33px 10px 0px 0px;
+}
+
+.checkbox_big .checkbox_wrap input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0 !important;
+  opacity: 0;
+  z-index: 2;
+}
+
+.checkbox_big .checkbox_wrap .check_btn {
+  width: 18px;
+  height: 18px;
+  background: url(../img/unchecked_big.png);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.checkbox_big .checkbox_wrap input[type="checkbox"]:checked + .check_btn {
+  background: url(../img/checked_big.png);
+}
+
+.checkbox_big label {
+	font-family: 'barun_gothic';
+	font-size: 18px;
+	font-weight: 500;
+	float: left;
+	margin-top: 18px;
+}
+
+table tr td.manager_wrap {
+	padding: 0;
+}
+
+table tr td.manager_wrap input[type="text"].manager_name {
+	width: 190px !important;
+	color: #3a3a3c;
+  	font-family: 'barun_gothic';
+  	font-weight: 500;
+	height: 50px;
+	box-sizing: border-box;
+	float: left;
+	padding-left: 20px;
+	border-right: 1px solid #e6e6e6;
+}
+
+table tr td.manager_wrap input[type="text"].manager_job {
+	width: 160px !important;
+	color: #3a3a3c;
+  	font-family: 'barun_gothic';
+  	font-weight: 500;
+	height: 50px;
+	box-sizing: border-box;
+	float: left;
+	margin-left: 20px;
+}
+
+.radio_content {
+	width: 250px !important;
+}
+
+.radio_content .radio_wrap {
+	width: 100px;
+	float: left;
+	margin-right: 15px;
+}
+
+.radio_content .radio_wrap label {
+	float: left;
+	font-size: 16px;
+	color: #3a3a3c;
+	margin-top: 2px;
+	font-family: 'barun_gothic';
+	font-weight: 500;
+}
+
+.radio_content .radio_wrap .radio_button {
+	width: 15px;
+	height: 15px;
+	position: relative;
+	float: left;
+	margin: 18px 5px 0px 0px;
+}
+
+.radio_content .radio_wrap .radio_button input[type="radio"] {
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0 !important;
+	opacity: 0;
+	z-index: 2;
+}
+
+.radio_content .radio_wrap .radio_button .radio_btn {
+	width: 15px;
+	height: 15px;
+	background: url(../img/uncheck.png);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.radio_content .radio_wrap .radio_button input[type="radio"]:checked + .radio_btn {
+	background: url(../img/checked.png);
+}
+
+table tr td.small_title > span.black {
+	font-family: 'barun-fothic';
+	font-size: 14px;
+	display: block;
+	margin-top: -24px;
+}
+
+.check_money {
+  float: left;
+  width: 100px;
+  line-height: 50px;
+  margin-right: 15px;
+}
+
+.check_money .check_wrap {
+	position: relative;
+	float: left;
+	width: 18px;
+	height: 18px;
+	margin-top: 15px;
+	margin-right: 6px;
+}
+
+.check_money .check_wrap input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0 !important;
+  opacity: 0;
+  z-index: 2;
+}
+
+.check_money .check_wrap .check_btn {
+  width: 18px;
+  height: 18px;
+  background: url(../img/unchecked_big.png);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.check_money .check_wrap input[type="checkbox"]:checked + .check_btn {
+  background: url(../img/checked_big.png);
+}
+
+.check_money label {
+	font-family: 'barun_gothic';
+	font-size: 16px;
+	float: left;
+	font-weight: 500;
+}
+
+table tr td > span.mail {
+	display: block;
+	color: #3c3c3a;
+	line-height: 20px;
+	font-size: 13px;
+	margin: -10px 0px 5px;
+	font-family: 'barun-gothic';
+}
+
+table tr th.bg_title{
+	width: 250px;
+	background: #f6f6f6;
+	color: #3a3a3c;
+	font-size: 16px;
+	font-family: 'barun_gothic';
+	font-weight: 500;
+}
+
+/* 190214 : 추가 */
+table tr td.three_pkg input[type="text"]{height:38px;line-height:36px;border:1px solid #e6e6e6;float:left;margin-top:5px;box-sizing:border-box;border-radius:5px;padding-left:15px;font-size: 15px;}
+table tr td.three_pkg input[type="text"].middle{width: 80px;}
+table tr td.three_pkg input[type="text"].short{width: 60px;}
+table tr td.three_pkg input[type="text"].long{width: 100px;}
+table tr td.three_pkg input[type="text"].padding{padding-left: 5px;}
+table tr td.three_pkg p.bar{float:left;width:30px;margin-top:5px;line-height:40px;color: #bfbfbf; text-align: center;}
+table tr td.three_pkg > select{width:110px;float:left;height:38px;line-height:36px;border:1px solid #e6e6e6;float:left;margin-top:5px;box-sizing:border-box;border-radius:5px;padding-left:10px;font-size: 15px;}
+table tr td.three_pkg > select.mail {margin-left: 10px; width: 110px; font-size: 13px;}
+
+/* 190220 : 추가 */
+table tr td > div.totalService{width: 325px;line-height: 40px;margin-right: 18px; height: 40px;float: left;}
+table tr td > div.totalService::after{content: "]원　│";position: relative;margin-right:-30px;}
+table tr td > div.last::after{content: "]원";}
+table tr td > div.totalService > label{width: 63px;float: left;height:40px; line-height: 40px;}
+table tr td > div.totalService > input[type="text"]{float: left;width: 215px !important;height: 40px; padding-right:10px;box-sizing: border-box;line-height: 40px;text-align: right;font-size: 18px;font-weight: 500;}

@@ -1,0 +1,259 @@
+@charset "utf-8";
+
+div.main_visual {
+	width: 100%;
+	height: 550px;
+	box-sizing: border-box;
+	padding-top: 200px;
+	border-bottom: 2px solid #5997e9;
+	background: url(../img/main_banner.png) no-repeat center center;
+}
+
+div.main_visual div.center {
+	text-align: center;
+}
+
+div.main_visual div.center h1 {
+	font-size: 45px;
+	margin-bottom: 25px;
+}
+
+div.main_visual div.center h4 {
+	line-height: 30px;
+	font-weight: 300;
+}
+
+div.main_visual div.center a.main_banner_btn {
+	float: right;
+	width: 200px;
+	height: 50px;
+	margin: 190px 100px 0px 0px;
+	display: block;
+	color: white;
+	line-height: 48px;
+	font-size: 18px;
+	box-sizing: border-box;
+	padding-right: 20px;
+	background: url(../img/main_banner_btn.png);
+}
+
+section h2.black {
+	margin: 100px 0px 40px 0px;
+	text-align: center; 
+}
+
+section div.text_wrap h3.point {
+	margin-bottom: 30px;
+	line-height: 40px;
+}
+
+section div.text_wrap h4.black {
+	line-height: 33px;
+}
+
+section div.text_wrap a.detail_button {
+	display: block;
+	border-radius: 100px;
+	width: 180px;
+	height: 50px;
+	line-height: 50px;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 18px;
+	color: #5997e9;
+	margin-top: 40px;
+}
+
+section.first_content div.text_wrap {
+	float: left;
+	margin-top: 50px;
+}
+
+section.first_content div.youtube_video {
+	float: right;
+	width: 600px;
+	height: 400px;
+	background: #000000;
+}
+
+section.second_content {
+	width: 100%;
+	height: 630px;
+	box-sizing: border-box;
+	background: #e0edfd;
+	margin-top: 60px;
+	padding-top: 1px;
+}
+
+section.second_content div.text_wrap {
+	float: left;
+	margin: 30px 0px 0px 40px;
+}
+
+section.second_content div.visual_area {
+	float: left;
+	width: 600px;
+	height: 400px;
+}
+
+section.second_content ul.circle_thumb li {
+	float: left;
+	margin: 10px 15px 0px 0px;
+}
+
+section.third_content div.left_area {
+	width: 600px;
+	height: 300px;
+	margin-top: 40px;
+	box-sizing: border-box;
+	float: left;
+	background: url(../img/third_thumb.png);
+}
+
+section.third_content div.right {
+	width: 600px;
+	float: right;
+	box-sizing: border-box;
+}
+
+section.third_content div.right h4.gray {
+	margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+section.third_content div.right ul.statusList {
+	box-sizing: border-box;
+	height: 300px;
+	overflow-y: scroll;
+	position: relative;
+	overflow: hidden;
+	/* padding-right: 10px; */
+}
+
+.sb-content {
+  height:100%;
+  width: 120%;
+  padding-right: 20%;
+	overflow-y: scroll;
+	box-sizing:border-box;
+}
+.sb-scrollbar-container {
+    position: absolute;
+    right: -4px;
+    bottom: 5px;
+    top: 5px;
+    width: 10px;
+}
+.sb-container-noscroll .sb-scrollbar-container {
+    right: -20px;
+}
+
+.sb-scrollbar {
+  position: absolute;
+  /* right: 10; */
+  height: 10px;
+  width: 5px;
+  border-radius: 100px;
+  background: rgba(89, 151, 233, 0.5);
+}
+
+.sb-scrollbar:hover {
+    background: #5997e9;
+}
+
+
+
+
+
+
+
+
+
+
+section.third_content div.right ul.statusList li.status_line {
+	height: 50px;
+	line-height: 50px;
+	box-sizing: border-box;
+	width: 580px;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+section.third_content div.right ul.statusList li.status_line img {
+	width: 20px;
+	float: left;
+}
+
+section.third_content div.right ul.statusList li.status_line > span {
+	width: 300px;
+	font-size: 18px;
+	color: #3a3a3c;
+	float: left;
+}
+
+section.third_content div.right ul.statusList li.status_line > div.status {
+	width: 240px;
+	float: right;
+	height: 50px;
+	line-height: 50px;
+	box-sizing: border-box;
+}
+
+section.third_content div.right ul.statusList li.status_line > div.status ul li {
+	float: left;
+	margin-top: 10px;
+}
+
+section.third_content div.right ul.statusList li.status_line > div.status ul li span {
+	width: 62px;
+	height: 26px;
+	display: block;
+	font-size: 15px;
+	border-radius: 100px;
+	text-align: center;
+	line-height: 26px;
+}
+
+section.third_content div.right ul.statusList li.status_line > div.status ul li > img {
+	margin-top: 7px;
+}
+
+section.logo_wrap {
+	width: 100%;
+	height: 120px;
+	box-sizing: border-box;
+	background: #fafafa;
+	margin-top: 100px;
+}
+
+section.logo_wrap > div.center h5.white {
+	float: left;
+	width: 100px;
+	height: 120px;
+	display: block;
+	border: 1px solid #e6e6e6;
+	line-height: 24px;
+	background: #a7a9ac;
+	padding-top: 35px;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+section.logo_wrap > div.center > ul.logo_slide  {
+	margin: 38px 0px;
+	width: 1100px;
+	float: right;
+	box-sizing: border-box;
+}
+
+section.logo_wrap > div.center > ul > li {
+	float: left;
+}
+
+footer {
+	margin-top: 0px !important;
+}

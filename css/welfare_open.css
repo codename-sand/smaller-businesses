@@ -1,0 +1,256 @@
+@charset "utf-8";
+
+div.sub_top_banner div.center {
+  background: url(../img/sub_top_img05.png);
+}
+
+form {
+	width: 900px;
+	margin: 0 auto;
+}
+
+form > div {
+	margin-bottom: 60px;
+}
+
+form h4.title {
+	font-weight: 500;
+	display: block;
+	width: 260px;
+	font-size: 21px;
+	height: 50px;
+	line-height: 50px;
+	margin-bottom: 15px;
+}
+
+form div.file_add_ci,
+form div.file_staff {
+	width: 1000px;
+	box-sizing: border-box;
+}
+
+form div p.notice {
+	clear: both;
+	display: inline-block;
+	font-family: 'barun-gothic';
+	font-size: 14px;
+	font-weight: 500;
+	margin-top: 10px;
+	color: #ea0058;
+}
+
+
+form div.file_add_ci input[type="file"],
+form div.file_staff input[type="file"] {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip:rect(0,0,0,0);
+	border: 0;
+}
+
+div.file_add_ci label.ci_upload,
+div.file_staff label.staff_upload {
+	cursor: pointer;
+	display: block;
+	float: left;
+	color: white;
+	width: 200px;
+	background: #3a3a3c;
+	line-height: 40px;
+	height: 40px;
+	font-size: 16px;
+	text-align: center;
+	border-radius: 100px;
+	font-family: 'nanum_gothic';
+	outline-width: 0;
+}
+
+div.file_add_ci input.upload_name_ci,
+div.file_staff input.upload_name_staff {
+	width: 700px;
+	height: 40px;
+	line-height: 40px;
+	float: left;
+	color: #a7a9ac;
+	border-bottom: 1px solid #e6e6e6;
+	font-size: 16px;
+	box-sizing: border-box;
+	background: none;
+	font-family: 'nanum_gothic';
+}
+
+
+
+
+a.staff_file {
+	width: 180px;
+	height: 40px;
+	color: white;
+	display: block;
+	box-sizing: border-box;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 5px;
+	font-family: 'barun-gothic';
+	font-size: 16px;
+	padding-left: 20px;
+	background: #a7a9ac url(../img/staff_btn_bg.png);
+	margin-top: 10px;
+}
+
+a.add_btn {
+	width: 100px;
+	height: 35px;
+	box-sizing: border-box;
+	display: block;
+	float: right;
+	text-align: center;
+	color: white;
+	line-height: 35px;
+	font-size: 16px;
+	padding-left: 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	background: #7a7a7a url(../img/add_bg.png) no-repeat center left;
+	margin: -10px 0px 15px 0px;
+}
+
+table {
+	width: 900px;
+	overflow-x: scroll;
+}
+
+table tr th {
+	font-weight: 500;
+	font-size: 17px;
+	color: #3a3a3c;
+	background: #fafafa;
+}
+
+table tr th.num {
+	width: 100px !important;
+}
+
+table tr th.name {
+	width: 150px !important;
+}
+
+table tr th.tell {
+	width: 220px !important;
+}
+
+table tr th.mail {
+	width: 300px !important;
+}
+
+table tr th.delete {
+	width: 70px !important;
+}
+
+table tr th {
+	text-align: center;
+}
+
+table tr th, table tr td {
+	border-top: 1px solid #e6e6e6;
+	border-bottom: 1px solid #e6e6e6;
+	height: 40px;
+	color: #3a3a3c;
+	box-sizing: border-box;
+	background-color: transparent;
+	line-height: 30px;
+}
+
+table tr td {
+	text-align: left !important;
+	line-height: 30px;
+	font-size: 16px;
+	font-family: 'barun-gothic';
+}
+
+table tr td > input[type="text"],
+table tr td > input[type="mail"] {
+	width: 100%;
+	height: 40px;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 16px;
+	line-height: 40px;
+	color: #3c3c3a;
+	font-family: 'barun-gothic';
+}
+
+table tr td > input[type="button"] {
+	width: 100%;
+	height: 40px;
+	box-sizing: border-box;
+	text-align: center;
+	color: #ea0058;
+	background-color: transparent;
+	font-size: 15px;
+	cursor: pointer;
+	line-height: 40px;
+	font-family: 'barun-gothic';
+}
+
+
+
+div.bank_popup {
+	top: 20%;
+	position: fixed;
+	z-index: 9999;
+	width: 900px;
+	margin: 0 auto;
+	background: white;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 40px 0px;
+}
+
+div.bank_popup h4.black {
+	margin-bottom: 30px;
+	font-size: 25px;
+}
+
+div.bank_popup p.black {
+	font-size: 18px;
+	line-height: 25px;
+	width: 400px;
+	height: 80px;
+	box-sizing: border-box;
+	padding-top: 15px;
+	margin: 0 auto;
+	border: 1px solid #3a3a3c;
+}
+
+div.bank_popup p.black > span.money {
+	font-weight: 500;
+}
+
+div.bank_popup p.gray {
+	line-height: 25px;
+	margin: 30px 0px;
+	font-size: 17px;
+}
+
+div.bank_popup > img.bankbook {
+	width: 800px;
+	height: auto;
+	box-sizing: border-box;
+}
+
+div.bank_popup > div.close {
+	width: 60px;
+	height: 50px;
+	box-sizing: border-box;
+	float: right;
+	line-height: 50px;
+	font-size: 15px;
+	color: #7a7a7a;
+	margin-top: -40px !important;
+	cursor: pointer;
+}

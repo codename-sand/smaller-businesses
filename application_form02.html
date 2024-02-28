@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>중소기업복지지원단</title>
+
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/form.css">
+	<script type="text/javascript" src="js/jquery-3.7.1.slim.js"></script>
+	<script src="js/check.js"></script>
+	<script src="js/sign.js"></script>
+	<script src="js/file.js"></script>
+</head>
+
+<body>
+	<header>
+		<div class="center cf">
+			<h1 class="main_logo"><a href="index.html"><img src="img/header_logo_bk.png" alt="header_logo"></a></h1>
+			<ul>
+				<li class="main_menu cf">
+					<a href="intro.html" class="black">지원단 소개</a>
+					<div class="sub_menu">
+						<ul class="sub_menu_list">
+							<li><a href="intro.html">인사말</a></li>
+							<li><a href="purpose.html">설립목적</a></li>
+							<li><a href="about.html">기관소개</a></li>
+							<li><a href="history.html">연　혁</a></li>
+							<li><a href="organizationChart.html">조직도</a></li>
+							
+							
+						</ul>
+					</div>
+					
+				</li>
+				<li class="main_menu"><a href="consulting.html" class="black">상담신청</a></li>
+				<li class="main_menu"><a href="yearlyStatus.html" class="black">연도별 사업실적</a></li>
+				<li class="main_menu cf">
+					<a href="result.html" class="black">커뮤니티</a>
+					<div class="sub_menu">
+						<ul class="sub_menu_list">
+							<li><a href="result.html">선정발표</a></li>
+							<li><a href="news.html">복지뉴스</a></li>
+							<li><a href="awards.html">수상내역</a></li>
+						</ul>
+					</div>
+					
+				</li>
+			</ul>	
+			<a href="login.html" class="join_about">참여신청</a>
+		</div>
+	</header>
+	
+	<div class="sub_top_banner">
+		<div class="center">
+			<h1 class="point">2019 중소기업복지지원사업 참여 신청</h1>
+			<h4 class="black">중소기업복지지원사업에 함께하세요!</h4>
+		</div>
+		
+	</div>
+
+	<form class="center">
+		<div class="sub_title">
+			<h3 class="black">2019 중소기업복지지원사업 참여 신청서</h3>
+			<img src="img/sub_title_visual.png" alt="visual_bullet">
+		</div>
+		
+		<table>
+			<tr>
+				<td class="small_title">구분</td>
+				<td class="two_type radio_content">
+					<div class="radio_wrap">
+                        <div class="radio_button">
+                            <input type="radio" id="public" name="radio_select_value">
+                            <div class="radio_btn"></div>
+                        </div>
+                        <label for="public">법인</label>
+                    </div>
+                    <div class="radio_wrap">
+                        <div class="radio_button">
+                            <input type="radio" id="special" name="radio_select_value">
+                            <div class="radio_btn"></div>
+                        </div>
+                        <label for="special">개인</label>
+                    </div>
+				</td>
+				<td class="small_title">고용보험 사업장 관리번호</td>
+				<td class="two_type">
+					<input type="text" name="" placeholder="고용보험 사업장 관리번호를 입력해주세요">
+				</td>
+			</tr>
+			<tr>
+				<td class="small_title">기업명</td>
+				<td class="two_type">
+					<input type="text" name="" readonly="readonly" value="(주)한국기업복지 1호점">
+				</td>
+				<td class="small_title">사업자 등록 번호</td>
+				<td class="two_type">
+					<input type="text" name="" placeholder="사업장 등록번호를 입력해주세요">
+				</td>
+			</tr>
+			<tr>
+				<td class="small_title">업종</td>
+				<td class="two_type">
+					<select>
+						<option>업종을 선택하세요.</option>
+						<option>업종을 선택하세요</option>
+						<option>농업, 임업 및 어업 (01 ~ 03)</option>
+						<option>광업 (05 ~ 08)</option>
+						<option>제조업 (10 ~ 34)</option>
+						<option>전기, 가스, 증기 및 공기 조절 공급업 (35)</option>
+						<option>수도,하수 및 폐기물 처리, 원료 재생업 (36 ~ 39)</option>
+						<option>건설업 (41 ~ 42)</option>
+						<option>도매 및 소매업 (45 ~ 47)</option>
+						<option>운수 및 창고업 (49 ~ 52)</option>
+						<option>숙박 및 음식점업 (55~ 56)</option>
+						<option>정보통신업 (58 ~ 63)</option>
+						<option>금융 및 보험업 (64~ 66)</option>
+						<option>부동산업 (68)</option>
+						<option>전문, 과학 및 기술 서비스업 (70~ 73)</option>
+						<option>사업시설 관리, 사업 지원 및 임대 서비스업 (74~ 76)</option>
+						<option>공공 행정, 국방 및 사회보장 행정 (84)</option>
+						<option>교육 서비스업 (85)</option>
+						<option>보건업 및 사회복지 서비스업 (86 ~ 87)</option>
+						<option>예술, 스포츠 및 여가관련 서비스업 (90 ~ 91)</option>
+						<option>협회 및 단체, 수리 및 기타 개인 서비스업 (94 ~ 96)</option>
+						<option>가구 내 고용활동 및 달리 분류되지 않은 자가 소비 생산활동 (97 ~ 98)</option>
+						<option>국제 및 외국기관 (99)</option>
+					</select>
+				</td>
+				<td class="small_title">법인 등록 번호</td>
+				<td class="two_type">
+					
+				</td>
+			</tr>
+			<tr>
+				<td class="small_title">사업장 주소</td>
+				<td class="address_form" colspan="3">
+					<input type="text" placeholder="사업장 주소를 입력해주세요" class="address_line">
+					<input type="text" placeholder="상세주소를 입력해주세요">
+				</td>
+			</tr>
+			<tr>
+				<td class="small_title">대표자</td>
+				<td class="two_type">
+					<input type="text" name="" placeholder="대표자를 입력해주세요">
+				</td>
+				<td class="small_title">담당자(직책)</td>
+				<td class="two_type manager_wrap">
+					<input type="text" class="manager_name" placeholder="이름을 입력해주세요">
+					<input type="text" class="manager_job" placeholder="직책을 입력해주세요">
+				</td>
+			</tr>
+			<tr>
+				<td class="small_title">대표번호</td>
+				<td class="two_type">
+					<input type="text" name="" placeholder="대표번호를 입력해주세요">
+				</td>
+				<td class="small_title">휴대폰 번호</td>
+				<td class="two_type">
+					<input type="text" name="" placeholder="휴대폰 번호를 입력해주세요">
+				</td>
+			</tr>
+			<tr>
+				<td class="small_title">설립일</td>
+				<td class="two_type">
+					<input type="text" name="" placeholder="설립일을 입력해주세요">
+				</td>
+				<td class="small_title">전체 근로자 수</td>
+				<td class="two_type">
+					<input type="text" name="" placeholder="전체 근로자 수를 입력해주세요">
+				</td>
+			</tr>
+			<tr>
+				<td class="small_title">신청내용<span class="black">*지원받는 항목 모두 선택</span></td>
+				<td class="radio_content">
+					<div class="check_money">
+						<div class="check_wrap">
+							<input type="checkbox" id="first_cost">
+							<div class="check_btn"></div>
+						</div>
+						<label for="first_cost">초기구축비</label>
+					</div>
+					<div class="check_money">
+						<div class="check_wrap">
+							<input type="checkbox" id="second_cost">
+							<div class="check_btn"></div>
+						</div>
+						<label for="second_cost">유지 관리비</label>
+					</div>
+					<div class="check_money">
+						<div class="check_wrap">
+							<input type="checkbox" id="third_cost">
+							<div class="check_btn"></div>
+						</div>
+						<label for="third_cost">복지비</label>
+					</div>
+				</td>
+				<td class="small_title">지원희망 근로자 수</td>
+				<td class="two_type">
+					<input type="text" name="" placeholder="지원희망 근로자 수를 입력해주세요">
+				</td>
+			</tr>
+			<tr>
+				<td class="small_title">동의안내</td>
+				<td colspan="3" class="agree_area">
+					<p class="black">위와 같이 2019년 [중소기업복지지원사업] 참여를 신청합니다. <br>
+					아울러 당사는 심의 과정에서의 결정된 사항에 어떠한 이의를 제기하지 않을 것이며, 진행 사항에 대하여 적극 협조하며,<br>
+					심의 과정에서 지원사업 관리를 위한 만족도 조사 등 사후관리와 개인정보 활용에 동의합니다.</p>
+					
+					<div class="checkbox_big">
+						<div class="checkbox_wrap">
+							<input type="checkbox" id="big_check">
+							<div class="check_btn"></div>
+						</div>
+						<label for="big_check">동의합니다.</label>
+					</div>
+				</td> 
+			</tr>
+			<tr class="sign_wrap">
+				<td class="small_title">신청인(인)</td>
+				<td colspan="7">
+					<div class="btn_wrap">
+						<a class="direct">직접 서명</a>
+						<a class="add_file">파일 추가</a>
+					</div>
+					
+					<!-- 직접 서명 -->
+					<div class="none_area">
+						<div class="reset_wrap">
+							<a class="refresh"><img src="img/refresh.png" alt="icon">다시 서명</a>
+							<a class="refile"><img src="img/refile.png" alt="icon">파일 추가</a>
+						</div>
+					</div>
+					<!-- 파일추가-->
+					<div class="file_add_sign">
+						<div class="reset_wrap">
+							<a class="rewrite"><img src="img/rewrite.png" alt="icon">직접서명</a>
+						</div>
+						<input class="upload_name_sign" value="서명 파일을 추가하세요" disabled="disabled">
+						<label for="file_upload_sign" class="sign_upload"></label>
+						<input type="file" id="file_upload_sign" class="sign_hidden">
+					</div>
+				</td>
+			</tr>
+		</table>
+		
+		<input type="submit" value="다음단계로 (도입신청서)" class="submit_btn" onclick="location.href='todac.html'; return false;">
+			
+	</form>
+	
+
+	<footer class="cf">
+		<div class="top_line">
+			<div class="center">
+				<ul>
+					<li class="black left">
+						<img src="img/awards_icon03.png" alt="footer_icon"><p>2018년 대한민국 경영대상 수상(기업복지 부문)</p>
+					</li>
+					<li class="black center2">
+						<p>주관기관</p><img src="img/footer_logo03.png" alt="footer_icon">
+					</li>
+					<li class="black right"><p>수행기관</p><img src="img/footer_logo.png" alt="footer_icon"></li>
+				</ul>
+			</div>
+		</div>
+		<div class="center footer_area">
+			<div class="text_set">
+				<p class="gray">서울특별시 성동구 아차산로 49 서울숲코오롱디지털타워 3차 1604호</p>
+				<ul class="address_list">
+					<li>이메일 : wlbwel@bokjihelp.org</li>
+					<li><img src="img/footer_small_line.png"></li>
+					<li>전화 : 02-6410-9699</li>
+					<li><img src="img/footer_small_line.png"></li>
+					<li>팩스 : 02-6442-5758</li>
+				</ul>
+				<h6 class="gray">Copyright © 중소기업복지지원단, 사단법인 혁신리더협회. All rights reserved.</h6>
+			</div>
+			
+
+			<ul class="sns_list">
+				<li><a href="https://twitter.com/okwel_official" target="_blank"><img src="img/footer_icon01.png" alt="footer_icon_sns"></a></li>
+				<li><a href="https://www.facebook.com/kbizwell" target="_blank"><img src="img/footer_icon02.png" alt="footer_icon_sns"></a></li>
+				<li><a href="https://blog.naver.com/okwel_official" target="_blank"><img src="img/footer_icon03.png" alt="footer_icon_sns"></a></li>
+			</ul>
+		</div>
+	</footer>
+</body>
+</html>
