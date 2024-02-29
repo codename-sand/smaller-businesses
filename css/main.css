@@ -141,6 +141,8 @@ section.third_content div.right ul.statusList {
   padding-right: 20%;
 	overflow-y: scroll;
 	box-sizing:border-box;
+	display: flex;
+	flex-direction: column;
 }
 .sb-scrollbar-container {
     position: absolute;
