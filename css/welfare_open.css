@@ -200,7 +200,7 @@ table tr td > input[type="button"] {
 
 
 div.bank_popup {
-	top: 20%;
+	top:calc(50% - 350px);
 	position: fixed;
 	z-index: 9999;
 	width: 900px;
